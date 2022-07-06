@@ -1,0 +1,115 @@
+body{
+	background-color: lightseagreen;
+	color: whitesmoke;
+}
+h1{
+	color: deeppink;
+	margin: 10px;
+	text-align: center;
+}
+h2{
+	color: aquamarine;
+}
+h2:hover{
+	text-decoration: line-through;
+	color: lightslategray;
+}
+small{
+	color: deeppink;
+	padding-left: 46%;
+	text-align: center;
+}
+#barrita a{
+	text-decoration: blink;
+	color: ghostwhite;
+}
+#barrita a:hover{
+	text-decoration: line-through;
+	color: lightslategray;
+}
+#barrita li a{
+	padding: 20px;
+}
+#principal{
+	padding-top: 5%;
+	padding-left: 40%;
+}
+#barrita{
+	background-color: mediumaquamarine;
+	text-align: center;
+	font-size: 30px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: block;
+	width: 100%;
+	z-index: 100;
+}
+#content{
+	max-width: 80%;
+	position: relative;
+	padding-top: 3%;
+	margin: 0 auto; /* Centrar */
+	background-color: lightpink;
+	padding: 2%;
+	text-align: justify;
+	padding-bottom: 10%;
+}
+#content header{
+	height: 15%;
+	padding: 5% 10%;
+	background-color: floralwhite;
+	border-radius: 2em;
+}
+#searcher{
+	float: right;
+	color: deeppink;
+}
+
+#principe{
+	height: 600px;
+	width: 25%;
+	float: left;
+	padding: 4%;
+}
+#segus{
+	width: 25%;
+	float: left;
+	padding: 4%;
+}
+
+#content aside{
+	width: 25%;
+	float: left;
+	padding: 5px;
+}
+#content footer{
+	clear: both;
+	width: 100%;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+li{
+	display: inline;
+	float: none;
+}
+footer{
+	background-color: mediumaquamarine;
+	text-align: right;
+	font-size: 30px;
+	width: 100%;
+	z-index: 100;
+	border-radius: 2em;
+}
+footer:hover{
+	color: lightslategray;
+}
+footer p{
+	padding-right: 5%;
+}
+img{
+	width: 80%;
+}

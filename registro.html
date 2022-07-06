@@ -1,0 +1,115 @@
+<!DOCTYPE html>	<!--comentario-->
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="title" content="Practica 2">
+	<title>Registro/EpilControlv0.1</title>
+	<link rel="stylesheet" type="text/css" href="style2.0.css">
+</head>
+<body>
+	<nav id="barrita">
+		<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="calendar.html">Calendario</a></li>
+			<li><a href="registro.html">Registro</a></li>
+		</ul>
+	</nav>
+	<div id="content">
+		<header>
+			<h1>Registro</h1>
+			<small>Aplicaciones Web</small>
+			<div id="searcher">
+			<FORM method=GET action="http://www.google.es/search">
+		    <fieldset>
+		        <input type=hidden name=ie value=UTF-8 />
+		        <input type=hidden name=oe value=UTF-8 />
+		                        
+		        <INPUT TYPE=text id="s" name="q" value="" size="50" />
+		        <font size=-1>
+		                        
+		        <input type=hidden name=domains value="http://www.uterra.com" /><br>
+		        <input type=radio name=sitesearch value="" /> En todo Internet</br>
+		        <input type=radio name=sitesearch value="http://www.duckduckgo.com" checked /> En DuckDuckGo.Com
+		                        
+		        <INPUT type=submit  id="x" name=btnG VALUE="Buscar" />
+		        </font>
+		    </fieldset>
+		    </FORM></div>
+		</header>
+
+		<div id="principal">
+			<table border="1">
+				<tr>
+					<td>Nombre</td>
+					<td>:</td>
+					<td><input type="text"></td>
+				</tr>
+
+				<tr>
+					<td>Apellido </td>
+					<td>:</td>
+					<td><input type="text"></td>
+				</tr>
+
+				<tr>
+					<td>Fecha Nacimiento</td>
+					<td>:</td>
+					<td><input type="Date"></td>
+				</tr>
+
+				<tr>
+					<td>Sexo</td>
+					<td>:</td>
+					<td><input type="radio" name="Si" value="Si"/>Si
+					<input type="radio" name="Si, por favor" value="Si, por favor"/>Si, por favor</td>
+				</tr>
+
+				<tr>
+					<td>Justifique su respuesta</td>
+					<td>:</td>
+					<td><textarea cols="22" rows="3" ></textarea></td>
+				</tr>
+
+				<tr>
+					<td>E-mail</td>
+					<td>:</td>
+					<td><input type="email"></td>
+				</tr>
+
+				<tr>
+					<td>Breve descripción </td>
+					<td>:</td>
+					<td><input type="text"></td>
+				</tr>
+
+				<tr>
+					<td>Padecimiento</td>
+					<td>:</td>
+					<td><select>
+					<option>Seleccione su padecimiento</option>
+					<option>Sx. Down</option>
+					<option>Sx. West</option>
+					<option>Sx. Kawassawa</option>
+					<option>Sx. qwerty</option>
+					<option>Sx. asdfg</option>
+					<option>Sx. poiuyt</option>
+					<option>Other</option>
+					</select></td>
+				</tr>
+
+				<tr>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td><input type="submit" name="submit" value="Registro"/>
+					<input type="reset" name="reset" value="Limpiar" /></td>
+				</tr>
+
+				</table>
+		</div>
+		
+		<footer>
+			<p>@DanyelMejia</p>
+		</footer>
+	</div>
+</body>
+</html>
